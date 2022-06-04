@@ -46,13 +46,30 @@ public class Demo02_lambda {
         int i = lambda.putListToMap("1", hashMap, objectHashMap);
         System.out.println(i);
 
+        new GreetingService() {
+            @Override
+            public void sayMessage(String message) {
+
+            }
+        };
+
+        // lambda实现interface
+        // 精简
+        GreetingService greetingService2 = (str) -> System.out.println(str + "world!!");
+        greetingService2.sayMessage("Hello");
+
+        // 极简
+        ((GreetingService)(str) -> System.out.println(str + "world!!")).sayMessage("Hello ");
+
     }
+
 
 
     interface MathOperation {
         int operation(int a, int b);
     }
 
+    @FunctionalInterface
     interface GreetingService {
         void sayMessage(String message);
     }
