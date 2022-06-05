@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package demo02;
+
 import java.util.HashMap;
 
 public class Demo02_lambda {
