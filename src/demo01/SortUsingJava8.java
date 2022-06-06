@@ -2,7 +2,7 @@ package demo01;
 
 import java.util.*;
 
-public class Demo01_sortUsingJava8 {
+public class SortUsingJava8 {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();
 
@@ -21,7 +21,7 @@ public class Demo01_sortUsingJava8 {
         arrayList1.add("P");
 
 
-        Demo01_sortUsingJava8 sortList = new Demo01_sortUsingJava8();
+        SortUsingJava8 sortList = new SortUsingJava8();
         sortList.sortUsingJava7(arrayList);
         System.out.println(arrayList);
 

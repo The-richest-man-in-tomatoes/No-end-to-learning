@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Demo05_lamdbaStream {
+public class LamdbaStream {
     public static void main(String[] args) {
         UserVO userVO1 = new UserVO("ZHY", 20);
         UserVO userVO2 = new UserVO("ZHY", 20);

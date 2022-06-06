@@ -2,9 +2,9 @@ package demo02;
 
 import java.util.HashMap;
 
-public class Demo02_lambda {
+public class Lambda {
     public static void main(String[] args) {
-        Demo02_lambda lambda = new Demo02_lambda();
+        Lambda lambda = new Lambda();
 
         // 类型声明
         MathOperation addition = (int a, int b) -> a + b;

@@ -1,6 +1,6 @@
 package demo04;
 
-public class Demo04_lamdbaThread {
+public class LlamdbaThread {
     public static void main(String[] args) {
         new Thread(new Runnable() {
             @Override

@@ -1,10 +1,9 @@
 package demo03;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.function.Consumer;
 
-public class Demo03_lamdbaForEach {
+public class LamdbaForEach {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();
 
