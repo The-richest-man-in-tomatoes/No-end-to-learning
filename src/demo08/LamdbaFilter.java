@@ -1,5 +1,6 @@
 package demo08;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,5 +21,15 @@ public class LamdbaFilter {
         // 并行（parallel）
         long count = numbers.parallelStream().filter(num -> num <= 8).count();
         System.out.println(count);
+
+
+        System.out.println("-------------------------");
+        List<String> list1 = new ArrayList<>();
+        list1.add("zhy");
+        list1.add("");
+        list1.add("mng");
+        list1.add("ahg");
+        String collect = list1.stream().filter(string -> !string.isEmpty()).collect(Collectors.joining());
+        System.out.println(collect);
     }
 }
