@@ -32,9 +32,5 @@ public class LamdabaMath {
             System.out.println(list);
         });
 
-        new Random().ints().limit(10).forEach(System.out::println);
-        System.out.println("-------------------------");
-
-
     }
 }
