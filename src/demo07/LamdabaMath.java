@@ -33,5 +33,17 @@ public class LamdabaMath {
         });
 
         new Random().ints().limit(10).forEach(System.out::println);
+<<<<<<< HEAD
+=======
+        System.out.println("-------------------------");
+        List<String> list = new ArrayList<>();
+        list.add("zhy");
+        list.add("");
+        list.add("mng");
+        list.add("ahg");
+        String collect = list.stream().filter(string -> !string.isEmpty()).collect(Collectors.joining());
+        System.out.println(collect);
+
+>>>>>>> dev
     }
 }
